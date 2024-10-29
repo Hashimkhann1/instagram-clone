@@ -1,10 +1,20 @@
-
-import 'package:instagram_clone/res/app_colors/app_colors.dart';
-import 'package:instagram_clone/res/components/my_text.dart';
 import 'package:instagram_clone/res/files_paths/files_paths.dart';
 
-class SplashView extends StatelessWidget {
+
+class SplashView extends StatefulWidget {
   const SplashView({super.key});
+
+  @override
+  State<SplashView> createState() => _SplashViewState();
+}
+
+class _SplashViewState extends State<SplashView> {
+
+  @override
+  void initState() {
+    SplashViewModel().splashTime(context);
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +29,7 @@ class SplashView extends StatelessWidget {
           Container(
             width: width,
             height: height * 0.61,
-            margin: EdgeInsets.symmetric(vertical: 14),
+            margin: const EdgeInsets.symmetric(vertical: 14),
 
             /// child
             child: Column(
@@ -30,7 +40,7 @@ class SplashView extends StatelessWidget {
                 Image.asset('assets/images/logo.png',width: 70,height: 90,),
 
                 /// text
-                Column(
+                const Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
