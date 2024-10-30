@@ -1,4 +1,6 @@
 # Instagram Clone
 
 - Splash view is completed
-- Working on Auth view
+- Auth Ui is completed
+- Working on home UI
+- 
