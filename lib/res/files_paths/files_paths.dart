@@ -12,4 +12,13 @@ export 'package:instagram_clone/res/components/my_text.dart';
 export 'package:instagram_clone/res/app_colors/app_colors.dart';
 
 
+////////////// All Files paths /////////////////////
+
+export 'package:instagram_clone/view/add_post_view/add_post_view.dart';
+export 'package:instagram_clone/view/home_view/home_view.dart';
+export 'package:instagram_clone/view/profile_view/profile_view.dart';
+export 'package:instagram_clone/view/reels_view/reels_view.dart';
+export 'package:instagram_clone/view/search_view/search_view.dart';
+
+
 
