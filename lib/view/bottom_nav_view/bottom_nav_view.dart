@@ -18,7 +18,7 @@ class _BottomNavViewState extends State<BottomNavView> {
 
   List views = [
 
-    HomeVierw(),
+    HomeView(),
     SearchView(),
     AddPostView(),
     ReelsView(),
